@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>SSHTML</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../estilo.css">
+	</head>
+	<body>
+		<header>
+			<a title="Clique aqui para pagina inicial" href="../index.html"><h1 align="left">Desenvolvimento WEB - Imagem e Vídeo</h1></a>	
+		</header>
+		<nav id="menu">
+			<ul type="square">
+				<a href="pgHTML.html" title="HTML"><li>HTML</li></a>
+				<a href="../css/pgCSS.html" title="CSS"><li>CSS</li></a>
+				<a href="../javaScript/pgJavaScript.html" title="JavaScript"><li>JavaScript</li></a>
+				<a href="../index.html" title="Pagina inicial"><li>Início</li></a>
+				<a href="../pgGithub.html" title="Pagina do GitHub"><li>GitHub</li></a>
+				<a href="../pgRegrasImg.html" title="Pagina de regras de imagens"><li>Regras de Imagens</li></a>
+			</ul>
+		</nav>
+		<div class="central">
+			<aside id="subMenu">
+				<ul type="square">
+					<a href="pgHTML.html"><li>HTML básico</li></a>
+					<a href="pgTableList.html"><li>Tabelas e listas</li></a>
+					<a href="pgMidias.html"><li>Imagem e Vídeo</li></a>
+					<a href="pgLinks.html"><li>Links</li></a>
+					<a href="pgSemantica.html"><li>HTML Semântica</li></a>
+					<a href="pgFormulario.html"><li>Formularios</li></a>
+				</ul>
+			</aside>
+			<section>
+				<h1>Imagem</h1>
+				<p>Estilizar imagens usando CSS</p>
+				<h3>Imagens arredondadas</h3>
+				<p>Use a border-radius para criar imagens arredondadas</p>
+				<div class="blocoDeImagens">
+					<img class="img1" src="..\imagens\pgHTML\pgImgCss\paris.jpg" alt="Paris.jpg" title="Imagem de um lugar de Paris">
+					<img class="img2" src="..\imagens\pgHTML\pgImgCss\paris.jpg" alt="Paris.jpg" title="Imagem de um lugar de Paris">
+				</div>
+				   <div class="bloco">
+					<h4>Exemplo</h4>
+					<div class="subBloco">
+					<pre>
+img {			img {
+  border-radius: 10px;    border-radius: 50%;	
+}			}		
+				        </pre>
+				  </div>
+				</div>
+				<h3>Imagens responsivas</h3>
+				<p>As imagens responsivas se ajustarão automaticamente ao tamanho da tela</p>
+				<div class="blocoDeImagens">
+				<img class="imgResp" src="..\imagens\pgHTML\pgImgCss\img_respons.jpg" alt="img_respons" title="Imagem aleratoria">
+				</div>
+				<div class="bloco">
+					<h4>Exemplo</h4>
+					<div class="subBloco">
+					<pre>
+.imgResp{
+	max-width: 100%;
+  	height: auto;
+}					</pre>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<footer>
+		<h2 align="center" >&copy;Desenvolvido para Fins Acadêmicos</h2>
+	</footer>
+</html>

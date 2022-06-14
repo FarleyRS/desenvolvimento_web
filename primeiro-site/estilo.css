@@ -1,0 +1,137 @@
+body{
+	margin-left:auto;
+	margin-right:auto;
+	width:1333px;
+}
+#principal{
+	padding-right:0%;
+	margin-left:210px;
+	margin-right:10px;
+	margin-top:-600px;
+}
+#menu{
+	text-align:left;
+	width:200px;
+	height:600px;
+	background-color:#E0E0E0;
+}
+#cabecalho{
+	background-color:grey;
+	color:white;
+	height:120px;
+	padding-top:20px;
+	padding-left:20px;
+}
+
+p{
+	font-size:19px;
+}
+#imgAuto{
+	width:auto;
+	heigth:auto;
+}
+#tituloNav{
+	text-align:center;
+}
+
+#pg2 p img{
+		width:700px;
+		heigth:auto;
+}
+
+footer{
+	background-color:grey;
+	color:white;
+	height:70px;
+	padding:10px 0px 10px 0px;
+}
+#menu ol li{
+	list-style-type: none;
+	height:20px;
+	text-align:center;
+	background-color:#C0C0C0;
+	padding:20px 0px 20px 0px;
+	margin:10px 10px 60px 0px;
+}
+#menu ol{
+	padding:10px 0px 0px 10px;
+}
+#menu ol a{
+	text-decoration: none;
+	color:white;
+}
+#cabecalho h1{
+	height: 40px;
+	width: 500px;
+	text-align: center;
+	padding: 15px 0px 10px 0px;
+	margin-top:5px;
+}
+#cabecalho a{
+	text-decoration: none;
+	color:white;
+}	
+#pListas{
+		width: auto;
+		height: auto;
+}
+#pListas #nOrd{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#pListas  #ord{
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+@media screen and (max-width: 1080px){
+	#cabecalho{
+		background-color:black;
+		color:red;
+	}
+	#principal{
+		padding-left:0px;
+		margin-left: 0px;
+		margin-right: auto;
+		margin-top:auto ;
+
+	}
+	#menu{
+	
+		width:auto;
+		
+	}
+	#imgAuto{
+		width:100%;
+		heigth:auto;
+	}
+	p img{
+		width:70%;
+		
+	}
+	img {
+    		width: 100%;
+	}
+	p{
+		font-size:15px;
+	}
+	ol li{
+		font-size:17px;
+		padding:20px 0px 20px 0px;
+		margin:0px 10px 1px 0px;
+
+	}
+	ol{
+		padding:0px 0px 0px 10px;
+	}
+	#cabecalho h1{
+		color: white;
+	}
+	#cabecalho a{
+		text-decoration: none;
+		color:white;
+	}
+	#pListas li{
+		font-size:20px;
+	}	
+}	
